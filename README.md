@@ -28,7 +28,7 @@ Then install the browsers:
 
 ## Env variables
 
-- Environment variables can be used. Currently the Base URL is an environment variable, pointing at a testing website:
+- Environment variables can be used. E.g. the Base URL can be an environment variable:
 
 - In ```home-page.ts```, change ```this.page.goto('https://the-internet.herokuapp.com');``` to ```this.page.goto(process.env.BASE_URL);```
 
